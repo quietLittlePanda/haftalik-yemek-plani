@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#1e293b"/>
+  <!-- Cloche / Hot pot lid -->
+  <path d="M256 120a16 16 0 0 1 16-16h0a16 16 0 0 1 16 16v16h-32z" fill="#f59e0b"/>
+  <path d="M128 280c0-70.7 57.3-128 128-128s128 57.3 128 128H128z" fill="#f8fafc"/>
+  <rect x="112" y="280" width="288" height="24" rx="12" fill="#e2e8f0"/>
+  <!-- Bowl / serving plate -->
+  <path d="M128 316c0 60 57.3 108 128 108s128-48 128-108H128z" fill="#f59e0b"/>
+  <!-- Steam lines -->
+  <path d="M220 100c-10-15 5-25-5-40" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M256 95c-8-15 8-25 0-40" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M292 100c-10-15 5-25-5-40" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" fill="none"/>
+</svg>

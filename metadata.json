@@ -1,0 +1,6 @@
+{
+  "name": "Haftalık Akşam Yemeği Planı",
+  "description": "Anneler için okunaklı, sade ve her pazar otomatik güncellenen haftalık akşam yemeği menüsü.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

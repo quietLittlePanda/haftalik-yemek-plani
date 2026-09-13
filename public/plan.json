@@ -1,0 +1,72 @@
+{
+  "weekStart": "2026-09-14",
+  "weekEnd": "2026-09-20",
+  "title": "14 - 20 Eylül Haftası Akşam Yemeği Planı",
+  "updatedAt": "2026-09-13T17:49:03.636Z",
+  "timezone": "Europe/Istanbul",
+  "days": [
+    {
+      "day": "Pazartesi",
+      "date": "2026-09-14",
+      "type": "sebze",
+      "typeLabel": "Sebze Günü",
+      "soup": "Yoğurt çorbası",
+      "main": "Patlıcan yemeği",
+      "side": "Patates püresi"
+    },
+    {
+      "day": "Salı",
+      "date": "2026-09-15",
+      "type": "et_tavuk",
+      "typeLabel": "Et/Tavuk Günü",
+      "soup": "Ezogelin çorbası",
+      "main": "Tas kebabı",
+      "side": "Havuç tarator"
+    },
+    {
+      "day": "Çarşamba",
+      "date": "2026-09-16",
+      "type": "sebze",
+      "typeLabel": "Sebze Günü",
+      "soup": "Yayla çorbası",
+      "main": "Kabak yemeği",
+      "side": "Patates püresi"
+    },
+    {
+      "day": "Perşembe",
+      "date": "2026-09-17",
+      "type": "et_tavuk",
+      "typeLabel": "Et/Tavuk Günü",
+      "soup": "Tel şehriye çorbası",
+      "main": "Tavuk haşlama",
+      "side": "Bulgur pilavı"
+    },
+    {
+      "day": "Cuma",
+      "date": "2026-09-18",
+      "type": "sebze",
+      "typeLabel": "Sebze Günü",
+      "soup": "Sebze çorbası",
+      "main": "Nohutlu sebze yemeği",
+      "side": "Fırın sebze"
+    },
+    {
+      "day": "Cumartesi",
+      "date": "2026-09-19",
+      "type": "balik",
+      "typeLabel": "Balık Günü",
+      "soup": "Tarhana çorbası",
+      "main": "Fırında somon",
+      "side": "Fırın sebze"
+    },
+    {
+      "day": "Pazar",
+      "date": "2026-09-20",
+      "type": "sebze",
+      "typeLabel": "Sebze Günü",
+      "soup": "Mercimek çorbası",
+      "main": "Ispanak yemeği",
+      "side": "Mevsim salatası"
+    }
+  ]
+}

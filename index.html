@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haftalık Akşam Yemeği Planı</title>
+  <meta name="description" content="Anneler için sade, okunaklı ve her pazar 17:00'de otomatik güncellenen haftalık akşam yemeği menüsü." />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍲</text></svg>" />
+</head>
+<body class="font-large">
+  <!-- Üst Başlık -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-top">
+        <div class="badge-update">
+          <span class="badge-dot"></span>
+          <span>Her Pazar 17:00'de Güncellenir</span>
+        </div>
+
+        <div class="header-actions">
+          <!-- Yaşlı Gözler İçin Yazı Boyutu Değiştirici -->
+          <div class="font-size-group" role="group" aria-label="Yazı boyutu">
+            <span class="font-size-label">Yazı:</span>
+            <button id="btn-font-normal" class="btn-font" title="Normal Yazı">Normal</button>
+            <button id="btn-font-large" class="btn-font active" title="Büyük Yazı">Büyük</button>
+            <button id="btn-font-xlarge" class="btn-font" title="Çok Büyük Yazı">Çok Büyük</button>
+          </div>
+
+          <!-- Yazdır Butonu -->
+          <button id="btn-print" class="btn-print" title="Menüyü tek sayfa A4 olarak yazdır">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 9V2h12v7"></path>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect width="12" height="8" x="6" y="14"></rect>
+            </svg>
+            <span>Yazdır</span>
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <p class="app-subtitle">Haftalık Akşam Yemeği Menüsü</p>
+        <h1 id="app-title" class="app-title">Haftalık Akşam Yemeği Planı Yükleniyor...</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Ana İçerik -->
+  <main class="main-content">
+    <div class="container">
+      <div id="loading" class="loading-box">
+        <div class="spinner"></div>
+        <p>Yemek menüsü yükleniyor...</p>
+      </div>
+
+      <!-- Pazartesi - Pazar Günlük Kartlar -->
+      <div id="plan-container" class="days-grid" style="display: none;"></div>
+
+      <!-- Bilgilendirme Kutusu -->
+      <div class="info-footer">
+        <div class="info-note">
+          <span>🕒</span>
+          <span>Plan <strong>Türkiye Saati (Europe/Istanbul)</strong> ile her Pazar saat 17:00'de otomatik yenilenir.</span>
+        </div>
+        <div class="info-note">
+          <span>🐟</span>
+          <span>Cumartesi balık günü, diğer günler sebze ve dengeli ev yemekleri.</span>
+        </div>
+      </div>
+
+      <!-- Yazdırma İçin Altbilgi -->
+      <div class="print-only-footer">
+        Afiyet olsun! • Pratik ve Kolay Türk Ev Yemekleri
+      </div>
+    </div>
+  </main>
+
+  <!-- Altbilgi -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Haftalık Akşam Yemeği Planı • Anne Dostu, Sade & Hızlı</p>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
