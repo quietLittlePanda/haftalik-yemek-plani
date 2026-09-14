@@ -2,7 +2,7 @@
   "weekStart": "2026-09-14",
   "weekEnd": "2026-09-20",
   "title": "14 - 20 Eylül Haftası Akşam Yemeği Planı",
-  "updatedAt": "2026-09-13T17:49:03.636Z",
+  "updatedAt": "2026-09-14T14:13:48.698Z",
   "timezone": "Europe/Istanbul",
   "days": [
     {
@@ -11,7 +11,7 @@
       "type": "sebze",
       "typeLabel": "Sebze Günü",
       "soup": "Yoğurt çorbası",
-      "main": "Patlıcan yemeği",
+      "main": "Zeytinyağlı taze fasulye",
       "side": "Patates püresi"
     },
     {
@@ -19,54 +19,54 @@
       "date": "2026-09-15",
       "type": "et_tavuk",
       "typeLabel": "Et/Tavuk Günü",
-      "soup": "Ezogelin çorbası",
-      "main": "Tas kebabı",
-      "side": "Havuç tarator"
+      "soup": "Yayla çorbası",
+      "main": "Tavuk sote",
+      "side": "Pirinç pilavı"
     },
     {
       "day": "Çarşamba",
       "date": "2026-09-16",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
-      "soup": "Yayla çorbası",
-      "main": "Kabak yemeği",
-      "side": "Patates püresi"
+      "soup": "Tel şehriye çorbası",
+      "main": "Bezelye yemeği",
+      "side": "Havuç tarator"
     },
     {
       "day": "Perşembe",
       "date": "2026-09-17",
       "type": "et_tavuk",
       "typeLabel": "Et/Tavuk Günü",
-      "soup": "Tel şehriye çorbası",
-      "main": "Tavuk haşlama",
-      "side": "Bulgur pilavı"
+      "soup": "Sebze çorbası",
+      "main": "Etli kuru fasulye",
+      "side": "Havuç tarator"
     },
     {
       "day": "Cuma",
       "date": "2026-09-18",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
-      "soup": "Sebze çorbası",
-      "main": "Nohutlu sebze yemeği",
-      "side": "Fırın sebze"
+      "soup": "Tarhana çorbası",
+      "main": "Zeytinyağlı barbunya pilaki",
+      "side": "Kase yoğurt"
     },
     {
       "day": "Cumartesi",
       "date": "2026-09-19",
       "type": "balik",
       "typeLabel": "Balık Günü",
-      "soup": "Tarhana çorbası",
-      "main": "Fırında somon",
-      "side": "Fırın sebze"
+      "soup": "Mercimek çorbası",
+      "main": "Buğulama levrek",
+      "side": "Haşlanmış sebze"
     },
     {
       "day": "Pazar",
       "date": "2026-09-20",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
-      "soup": "Mercimek çorbası",
-      "main": "Ispanak yemeği",
-      "side": "Mevsim salatası"
+      "soup": "Ezogelin çorbası",
+      "main": "Sebzeli türlü",
+      "side": "Bulgur pilavı"
     }
   ]
 }
