@@ -2,10 +2,8 @@ name: Haftalık Akşam Yemeği Planını Güncelle
 
 on:
   schedule:
-    # Her Pazar UTC 14:00 (Türkiye Saati Europe/Istanbul ile 17:00)
-    # Cron formatı: Dakika Saat Gün Ay HaftanınGünü (0 = Pazar)
-    - cron: '0 14 * * 0'
-  # GitHub arayüzünden 'Run workflow' ile manuel test imkanı
+    # Her Pazar 14:00 UTC = Türkiye saatiyle 17:00
+    - cron: "0 14 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -16,47 +14,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Depoyu Klonla
+      - name: Depoyu hazırla
         uses: actions/checkout@v4
 
-      - name: Node.js Kurulumu
+      - name: Node.js kurulumu
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Yeni Haftalık Planı Oluştur
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          GITHUB_PAGES_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
-        run: |
-          node scripts/generate-plan.js
+      - name: Yeni haftalık planı oluştur
+        run: node scripts/generate-plan.js
 
-      - name: Değişiklikleri Commit ve Push Yap
+      - name: Yeni planı kaydet
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # plan.json değişmişse commit et
-          git add plan.json public/plan.json || git add plan.json
-          
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plan.json public/plan.json
+
           if git diff --staged --quiet; then
-            echo "Değişiklik yok, commit atlanıyor."
+            echo "Değişiklik bulunamadı."
           else
-            git commit -m "chore: yeni haftalık akşam yemeği planı oluşturuldu [skip ci]"
-            git push origin HEAD:${{ github.ref_name }}
-            echo "Yeni plan başarıyla repoya push edildi."
+            git commit -m "Haftalık yemek planını güncelle"
+            git push
           fi
 
-      - name: Telegram Bildirimi Gönder
-        if: ${{ secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_CHAT_ID != '' }}
+      - name: Telegram bildirimi gönder
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          PAGE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: |
-          MESSAGE="Haftalık akşam yemeği planı hazır: ${PAGE_URL}"
-          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
-            -d chat_id="${TELEGRAM_CHAT_ID}" \
-            -d text="${MESSAGE}" \
-            -d parse_mode="HTML"
+          curl --fail-with-body --silent --show-error \
+            -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=Haftalık akşam yemeği planı hazır: https://quietlittlepanda.github.io/haftalik-yemek-plani/"
