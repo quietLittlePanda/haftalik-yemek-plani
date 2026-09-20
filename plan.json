@@ -1,72 +1,72 @@
 {
-  "weekStart": "2026-09-14",
-  "weekEnd": "2026-09-20",
-  "title": "14 - 20 Eylül Haftası Akşam Yemeği Planı",
-  "updatedAt": "2026-09-14T14:13:48.698Z",
+  "weekStart": "2026-09-21",
+  "weekEnd": "2026-09-27",
+  "title": "21 - 27 Eylül Haftası Akşam Yemeği Planı",
+  "updatedAt": "2026-09-20T17:11:10.052Z",
   "timezone": "Europe/Istanbul",
   "days": [
     {
       "day": "Pazartesi",
-      "date": "2026-09-14",
+      "date": "2026-09-21",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
-      "soup": "Yoğurt çorbası",
-      "main": "Zeytinyağlı taze fasulye",
-      "side": "Patates püresi"
-    },
-    {
-      "day": "Salı",
-      "date": "2026-09-15",
-      "type": "et_tavuk",
-      "typeLabel": "Et/Tavuk Günü",
-      "soup": "Yayla çorbası",
-      "main": "Tavuk sote",
-      "side": "Pirinç pilavı"
-    },
-    {
-      "day": "Çarşamba",
-      "date": "2026-09-16",
-      "type": "sebze",
-      "typeLabel": "Sebze Günü",
-      "soup": "Tel şehriye çorbası",
-      "main": "Bezelye yemeği",
-      "side": "Havuç tarator"
-    },
-    {
-      "day": "Perşembe",
-      "date": "2026-09-17",
-      "type": "et_tavuk",
-      "typeLabel": "Et/Tavuk Günü",
-      "soup": "Sebze çorbası",
-      "main": "Etli kuru fasulye",
-      "side": "Havuç tarator"
-    },
-    {
-      "day": "Cuma",
-      "date": "2026-09-18",
-      "type": "sebze",
-      "typeLabel": "Sebze Günü",
-      "soup": "Tarhana çorbası",
-      "main": "Zeytinyağlı barbunya pilaki",
-      "side": "Kase yoğurt"
-    },
-    {
-      "day": "Cumartesi",
-      "date": "2026-09-19",
-      "type": "balik",
-      "typeLabel": "Balık Günü",
       "soup": "Mercimek çorbası",
-      "main": "Buğulama levrek",
+      "main": "Pırasa yemeği",
       "side": "Haşlanmış sebze"
     },
     {
-      "day": "Pazar",
-      "date": "2026-09-20",
+      "day": "Salı",
+      "date": "2026-09-22",
+      "type": "et_tavuk",
+      "typeLabel": "Et/Tavuk Günü",
+      "soup": "Sebze çorbası",
+      "main": "İzmir köfte",
+      "side": "Havuç tarator"
+    },
+    {
+      "day": "Çarşamba",
+      "date": "2026-09-23",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
+      "soup": "Yayla çorbası",
+      "main": "Nohutlu sebze yemeği",
+      "side": "Pirinç pilavı"
+    },
+    {
+      "day": "Perşembe",
+      "date": "2026-09-24",
+      "type": "et_tavuk",
+      "typeLabel": "Et/Tavuk Günü",
       "soup": "Ezogelin çorbası",
-      "main": "Sebzeli türlü",
+      "main": "Tavuk haşlama",
+      "side": "Kase yoğurt"
+    },
+    {
+      "day": "Cuma",
+      "date": "2026-09-25",
+      "type": "sebze",
+      "typeLabel": "Sebze Günü",
+      "soup": "Tel şehriye çorbası",
+      "main": "Karnabahar yemeği",
       "side": "Bulgur pilavı"
+    },
+    {
+      "day": "Cumartesi",
+      "date": "2026-09-26",
+      "type": "balik",
+      "typeLabel": "Balık Günü",
+      "soup": "Tarhana çorbası",
+      "main": "Fırında somon",
+      "side": "Mevsim salatası"
+    },
+    {
+      "day": "Pazar",
+      "date": "2026-09-27",
+      "type": "sebze",
+      "typeLabel": "Sebze Günü",
+      "soup": "Yoğurt çorbası",
+      "main": "Patlıcan yemeği",
+      "side": "Haşlanmış sebze"
     }
   ]
 }
