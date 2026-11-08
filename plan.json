@@ -1,72 +1,72 @@
 {
-  "weekStart": "2026-11-02",
-  "weekEnd": "2026-11-08",
-  "title": "2 - 8 Kasım Haftası Akşam Yemeği Planı",
-  "updatedAt": "2026-11-01T18:41:14.882Z",
+  "weekStart": "2026-11-09",
+  "weekEnd": "2026-11-15",
+  "title": "9 - 15 Kasım Haftası Akşam Yemeği Planı",
+  "updatedAt": "2026-11-08T18:36:14.455Z",
   "timezone": "Europe/Istanbul",
   "days": [
     {
       "day": "Pazartesi",
-      "date": "2026-11-02",
+      "date": "2026-11-09",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
-      "soup": "Yoğurt çorbası",
-      "main": "Patlıcan yemeği",
-      "side": "Erişte"
+      "soup": "Yayla çorbası",
+      "main": "Karnabahar yemeği",
+      "side": "Roka salatası"
     },
     {
       "day": "Salı",
-      "date": "2026-11-03",
+      "date": "2026-11-10",
       "type": "et_tavuk",
       "typeLabel": "Et/Tavuk Günü",
-      "soup": "Yayla çorbası",
-      "main": "Tavuk haşlama",
-      "side": "Haşlanmış sebze"
+      "soup": "Yoğurt çorbası",
+      "main": "Tavuk sote",
+      "side": "Erişte"
     },
     {
       "day": "Çarşamba",
-      "date": "2026-11-04",
+      "date": "2026-11-11",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
-      "soup": "Tel şehriye çorbası",
-      "main": "Pırasa yemeği",
-      "side": "Patates püresi"
+      "soup": "Mercimek çorbası",
+      "main": "Bezelye yemeği",
+      "side": "Kase yoğurt"
     },
     {
       "day": "Perşembe",
-      "date": "2026-11-05",
+      "date": "2026-11-12",
       "type": "et_tavuk",
       "typeLabel": "Et/Tavuk Günü",
-      "soup": "Tarhana çorbası",
-      "main": "Etli nohut",
-      "side": "Bulgur pilavı"
+      "soup": "Ezogelin çorbası",
+      "main": "Fırında köfte",
+      "side": "Cacık"
     },
     {
       "day": "Cuma",
-      "date": "2026-11-06",
+      "date": "2026-11-13",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
-      "soup": "Ezogelin çorbası",
-      "main": "Zeytinyağlı barbunya pilaki",
-      "side": "Patates püresi"
+      "soup": "Tarhana çorbası",
+      "main": "Ispanak yemeği",
+      "side": "Bulgur pilavı"
     },
     {
       "day": "Cumartesi",
-      "date": "2026-11-07",
+      "date": "2026-11-14",
       "type": "balik",
       "typeLabel": "Balık Günü",
-      "soup": "Mercimek çorbası",
-      "main": "Buğulama levrek",
-      "side": "Fırın sebze"
+      "soup": "Sebze çorbası",
+      "main": "Fırında çipura",
+      "side": "Haşlanmış sebze"
     },
     {
       "day": "Pazar",
-      "date": "2026-11-08",
+      "date": "2026-11-15",
       "type": "sebze",
       "typeLabel": "Sebze Günü",
-      "soup": "Sebze çorbası",
-      "main": "Sebzeli türlü",
-      "side": "Cacık"
+      "soup": "Tel şehriye çorbası",
+      "main": "Nohutlu sebze yemeği",
+      "side": "Mevsim salatası"
     }
   ]
 }
